@@ -10,7 +10,6 @@ vector<int> solution(long long n) {
         answer.push_back(n%10);
         n /= 10;
     }
-    for(auto it = answer.rbegin(); it != answer.rend(); it++)
     
     return answer;
 }
