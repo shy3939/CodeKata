@@ -16,8 +16,6 @@ vector<int> solution(vector<int> array, vector<vector<int>> commands) {
         int max = commands[i][1];
         int num = commands[i][2];
         
-//         if(max >= arr_size) max = arr_size;
-        
         min -= 1;
         num -= 1;
         
