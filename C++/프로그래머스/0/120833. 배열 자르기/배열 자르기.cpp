@@ -9,12 +9,11 @@ vector<int> solution(vector<int> numbers, int num1, int num2) {
     vector<int> answer(result, 0);
     int size = numbers.size();
     
-    for(int i = 0; i < size; i++) {
-        if(i >= num1 && i <= num2) {
-            answer[count] = numbers[i];
-            count++;
-        }
+    for(int i = num1; i <= num2; i++) {
+        answer[count] = numbers[i];
+        count++;
     }
+
     
     return answer;
 }
